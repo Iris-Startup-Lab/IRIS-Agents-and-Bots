@@ -1,0 +1,124 @@
+# Ignora todos los archivos de carpetas que no deben subirse (Añade las carpetas que sean necesarias)
+__pycache__/
+__pypackages__/
+data/
+/data
+formatos/
+/formatos
+# Carpetas creadas por ambientes 
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.env
+*.envrc
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Carpetas o archivos de Docker
+docker/docker
+bin
+# Ignora todos los archivos .log env
+*.log
+*.venv
+*.env
+# Ignora todos los archivos con datos tabulares 
+*.csv
+*.xls
+*.xlsx
+# Ignora todos los archivos con datos de texto 
+*.txt
+*.pptx
+*.docx
+*.vs
+# Ignora todos los archivos de tipo audio o video
+*.wav
+*.mp3
+*.mp4
+# Ignora todos los archivos de Tableau
+*.twbx
+*.twb
+# Archivos de vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.env
+# Historia local de VSCode
+.history/
+# Visual Studio extensiones
+*.vsix
+# Archivos de instaladores de Windows
+*.cab
+*.exe
+*.msi
+*.msix
+*.msm
+*.msp
+# Archivos de instaladores de Linux
+*.deb
+# Archivos creados por usar R
+Rhistory
+Rapp.history
+*_cache/
+/cache/
+Renviron
+# Archivos al usar Python
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.DS_Store
+.idea/
+# Archivos al usar Node
+node_modules/
+*.log
+.env
+.DS_Store
+.git
+# Archivos de AZURE
+[Bb]in/
+[Oo]bj/
+[Dd]ist/
+[Aa]ppPackages/
+*.pdb
+*.suo
+*.user
+*.log
+*.ide/
+.vscode/
+**/packages/
+node_modules/
+!**/packages.config
+*.publishsettings
+*.build.csdef
+csx/
+sql/*.mdf
+sql/*.ldf
+[Tt]humbs.db
+Desktop.ini
