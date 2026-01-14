@@ -44,7 +44,6 @@ bin
 *.xls
 *.xlsx
 # Ignora todos los archivos con datos de texto 
-*.txt
 *.pptx
 *.docx
 *.vs
